@@ -35,6 +35,7 @@
     bottom: 180px;
     left: 200px;
      padding: 25px;
+    border: 2px solid black;
 }
 .box2{
     position: absolute;
@@ -45,4 +46,5 @@
     bottom: 180px;
     right: 200px;
      padding: 25px;
+    border: 2px solid black;
 }
