@@ -5,7 +5,7 @@ import "./Styles.css"
 
 const Preview = () => {
 
-const [name,SetName]=useState(false)
+const [name1,SetName]=useState(false)
 
 const [name2,SetName2]=useState(false)
 
@@ -15,10 +15,10 @@ const [name2,SetName2]=useState(false)
   <br></br>
   <h1>Styling using Fuctional and ClassComponent</h1>
 
-  <button className='bt1' onClick={()=>SetName(true)}>To see styling in functional component</button>
-  <button className='bt2' onClick={()=>SetName2(true)}>To see styling in class component</button>
+  <button className='bt1' onClick={()=>name1 ? SetName(false) : SetName(true)}>To see styling in functional component</button>
+  <button className='bt2' onClick={()=>name2 ? SetName2(false) : SetName2(true)}>To see styling in class component</button>
   
-  {name&&<Functional />}
+  {name1&&<Functional />}
   {name2&&<ClassComponent />}
   </div>
 
