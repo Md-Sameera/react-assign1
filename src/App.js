@@ -1,12 +1,11 @@
 import './App.css';
-import Preview from './practise/Preview';
+import View from './assign2/View';
 
 function App() {
   return (
     <div className="cont">
-      <Preview />
+     <View />
     </div>
   );
 }
-
 export default App;
